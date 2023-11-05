@@ -19,6 +19,12 @@
     margin: 24px 0 0 24px;
 }
 
+.star-circle img {
+    width: 13.956px;
+    height: 13.333px;
+    flex-shrink: 0;
+}
+
 .main h1 {
     width: 279px;
     color: var(--Pure-White, #FFF);
@@ -90,6 +96,11 @@
         margin: 32px 0 0 32px;
     }
 
+    .star-circle img {
+        width: 16.747px;
+        height: 16px;
+    }
+
     .main h1 {
         font-feature-settings: 'clig' off, 'liga' off;
         font-size: 28px;
@@ -110,7 +121,7 @@
         margin: 24px 39px 0 32px;
     }
 
-    .stars{
+    .stars {
         width: 51px;
         height: 51px;
         font-feature-settings: 'clig' off, 'liga' off;
@@ -118,6 +129,10 @@
         font-weight: 700;
         line-height: 24px;
         letter-spacing: 0.2px;
+    }
+
+    .stars:hover {
+        cursor: pointer;
     }
     
     .submit {
